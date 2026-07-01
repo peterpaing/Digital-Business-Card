@@ -26,11 +26,11 @@ function Content(){
 }
 
 
-export default function Main(){
+export default function MainContent(){
     return(
-        <>
+        <main>
         <Heading/>
         <Content/>
-        </>
+        </main>
     )
 }
