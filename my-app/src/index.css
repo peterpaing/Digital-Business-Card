@@ -37,7 +37,6 @@ body{
 header{
     width: 90%;
     height: 317px;
-    margin-top:44px;
     margin-left: 23px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -87,10 +86,9 @@ header img{
 }
 
 .btn-container button{
+    border: none;
     width: 115px;
     height: 34px;
-    top: 468px;
-    left: 151px;
     border-radius: 6px;
     padding: 9px 13px;
     background-color: var(--LinkeDIn-color);
@@ -100,4 +98,23 @@ header img{
 button:first-child{
     background-color: var(--text-color);
     color: var(--email-color);
+}
+
+#main-about{
+    width:247px;
+    margin:auto;
+}
+
+
+ #main-about h2{
+   font-weight: 700;
+    font-style: Bold;
+    font-size: 1.5rem;
+    line-height: 150%;
+    margin-top: 1.5em;
+}
+
+ #main-about p{
+   font-size: 1rem;
+    line-height: 150%;
 }
